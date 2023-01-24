@@ -31,6 +31,8 @@ Link to deployed application:
 
 Link to repository on gitHub:
 
+https://github.com/PsychicSalad/Multiple-Choice-Quiz
+
 ## License
 
 This project uses an MIT license. For more information please view the license file in the repository.
