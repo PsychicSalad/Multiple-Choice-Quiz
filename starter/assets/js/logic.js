@@ -110,9 +110,30 @@ function quizBegin() {
   getQuestion();
 }
 
-function saveHighScore() {}
+function saveHighScore() {
+  let initials = initialElement.value.trim();
 
-function checkForEnter(event) {}
+  if (initials !== "") {
+    let highScores = JSON.parse(localStorage.getItem("highscores")) || [];
+
+    let newScore = {
+      score: time,
+      initials: initials,
+    };
+
+    highScores.push(newScore);
+    localStorage.setItem("highscores", JSON.stringify(highScores));
+
+    window.location.href = "highscores.html";
+  }
+}
+
+//  Calls high score function if the user hits enter to save their high score
+function checkForEnter(event) {
+  if (event.key === "Enter") {
+    saveHighScore();
+  }
+}
 
 // adding event listener for clicking the start button
 startButton.addEventListener("click", quizBegin);
