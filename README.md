@@ -16,18 +16,20 @@ In order to use the quiz please open the application in your browser and press t
 
 After pressing start, the quiz should begin and the timer will start. You can click on the buttons to input your guess for each question. The browser will show "incorrect" or "correct" depending on if you get the question right or not.
 
-![Screenshot displaying quiz question as quiz in progress](starter/assets/images/Quiz_Screenshot_1.png)
+![Screenshot displaying quiz question as quiz in progress](assets/images/Quiz_Screenshot_1.png)
 
 Quiz showing incorrect answer:
 
-![Screenshot displaying quiz showing incorrect answer](starter/assets/images/Quiz_Screenshot_2.png)
+![Screenshot displaying quiz showing incorrect answer](assets/images/Quiz_Screenshot_2.png)
 
 After completing the questions or the timer running out, you will gain a score based on how quickly and how well you were able to correctly answer the questions.
 You can input your name or initials to have your score saved, and you can clear the saved scores by pressing "clear highscores".
 
-![Screenshot of high score screen](starter/assets/images/Quiz_Screenshot_3.png)
+![Screenshot of high score screen](assets/images/Quiz_Screenshot_3.png)
 
 Link to deployed application:
+
+https://psychicsalad.github.io/Multiple-Choice-Quiz/
 
 Link to repository on gitHub:
 
